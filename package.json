@@ -1,0 +1,17 @@
+{
+  "name": "zodiacapp",
+  "version": "1.0.0",
+  "description": "Making first zodiac app",
+  "main": "backend.js",
+  "scripts": {
+    "start": "node backend.js"
+  },
+  "author": "Khubaib Ahmad",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
