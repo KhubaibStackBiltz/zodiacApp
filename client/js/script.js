@@ -73,3 +73,12 @@ var zodiacs=[
 
 
 ]
+
+function getData(){
+	var userSearch = document.getElementById('user-search').value;
+	for( var i=0; i< zodiacs.length; i++) {
+		if(userSearch === zodiacs[i].name){
+			document.getElementById('text-result').innerHTML = zodiacs[i].description;
+		}
+	}
+}
